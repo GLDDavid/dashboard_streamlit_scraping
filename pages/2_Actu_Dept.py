@@ -13,6 +13,8 @@ from wordcloud import WordCloud
 from PIL import Image
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+import nltk
+nltk.download('punkt')
 
 import matplotlib.pyplot as plt
 import plotly.express as px
